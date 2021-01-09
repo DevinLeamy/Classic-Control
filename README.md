@@ -40,25 +40,25 @@ Video of mountain car
 
 ## Play around with it!
 Requirements:<br/>
-"""bash
+```bash
 pip3 install gym
 pip3 install numpy
 pip3 install torch
-"""
+```
 
 Clone the repo:<br/>
-"""bash
+```bash
 git clone https://github.com/DevinLeamy/Classic-Control.git
-"""
+```
 
 Train the agents (MountainCar in this example):<br/>
-"""bash
+```bash
 cd MountainCar
 python3 train.py
-"""
+```
 
 Test your agents:<br/>
-"""bash
+```bash
 python3 test.py
-"""
+```
 
