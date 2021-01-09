@@ -2,8 +2,8 @@
 Using Deep Q Learning to solve classic control problems.
 ## Notes
 1. Both environments (CartPole-v0 and MountainCar-v0) have been sourced from OpenAI's Gym API (https://gym.openai.com/envs/#classic_control). 
-2. Q Learning was facilitated through use of two artifically neural network (a Q Net and a Target Net). The functions of both are layed out in this article: https://towardsdatascience.com/self-learning-ai-agents-part-i-markov-decision-processes-baf6b8fc4c5f.
-3. Testing figures are drawn from model parameters found in /models of each respective environment (these parameters were collected following training).
+2. Q Learning was facilitated through use of two artifical neural networks (a Q Net and a Target Net). The functions of both networks are layed out in this article: https://towardsdatascience.com/self-learning-ai-agents-part-i-markov-decision-processes-baf6b8fc4c5f.
+3. Testing figures are drawn from model parameters found in the __models__ folder of each environment (these parameters were collected following training).
 
 # CartPole (CartPole-v0)
 The agent in this problem is tasked to keep a pole balance on a cart.<br/><br/>
@@ -23,7 +23,7 @@ The agent in this problem is tasked to keep a pole balance on a cart.<br/><br/>
 + Average reward during testing (100 episodes): 200.0
 
 # MountainCar (MountainCar-v0)
-The agent in this problem is a car tasked with making its way to a flag perched on a hill. The car cannot make it up the hill and, thus, must learn the generate the momentum required to do so. <br/><br/>
+The agent in this problem is a car tasked with making its way to a flag perched on a hill. The car cannot force its way up the hill and, thus, must learn the generate the momentum required to do so. <br/><br/>
 **Hyperparameters**:
 * learning rate = 0.0001
 * gamma = 0.99
