@@ -14,8 +14,8 @@ The agent in this problem is tasked to keep a pole balance on a cart.<br/><br/>
 * memory size = 1000
 * target net update frequency = 200 (timesteps) <br/>
 
-**Agent after training**<br/>
-Video of agent balancing pole
+**Agent after training:**<br/>
+![Agent Balancing Pole](results/CartPole.gif)
 
 + First successful episode: 185
 + Desired reward: 200.0
@@ -30,8 +30,8 @@ The agent in this problem is a car tasked with making its way to a flag perched 
 * memory size = 100000
 * target net update frequency = 200 (timesteps) <br/>
 
-**Agent after training**<br/>
-Video of mountain car
+**Agent after training:**<br/>
+![Agent Climbing Hill](results/MountainCar.gif)
 
 + First successful episode: 1042
 + Desired reward: >= -100
