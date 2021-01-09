@@ -1,7 +1,8 @@
 # Classic-Control
-Using Deep Q Learning to Solve Classic Control Problems <br/>
-Both environments (CartPole-v0 and MountainCar-v0) have been sourced from OpenAi's Gym API. Additionally, for both environments Q Learning is 
-facilitated through use of two artifically neural network (a Q Net and a Target Net). The functions of both are layed out in this article: https://towardsdatascience.com/self-learning-ai-agents-part-i-markov-decision-processes-baf6b8fc4c5f.
+Using Deep Q Learning to solve classic control problems <br/> <br/>
+## Notes
+1. Both environments (CartPole-v0 and MountainCar-v0) have been sourced from OpenAi's Gym API. 
+2. Additionally, for both environments Q Learning is facilitated through use of two artifically neural network (a Q Net and a Target Net). The functions of both are layed out in this article: https://towardsdatascience.com/self-learning-ai-agents-part-i-markov-decision-processes-baf6b8fc4c5f.
 
 # Problems
 ### CartPole
