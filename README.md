@@ -5,7 +5,6 @@ Using Deep Q Learning to solve classic control problems.
 2. Q Learning was facilitated through use of two artifically neural network (a Q Net and a Target Net). The functions of both are layed out in this article: https://towardsdatascience.com/self-learning-ai-agents-part-i-markov-decision-processes-baf6b8fc4c5f.
 3. Testing figures are drawn from model parameters found in /models of each respective environment (these parameters were collected following training).
 
-## Results 
 # CartPole (CartPole-v0)
 The agent in this problem is tasked to keep a pole balance on a cart.<br/><br/>
 **Hyperparameters**:
@@ -39,25 +38,25 @@ Video of mountain car
 + Average reward during testing (100 episodes): -147.1 (successful roughly 3/5th of the time) 
 
 ## Play around with it!
-Requirements:<br/>
+**Requirements**:<br/>
 ```bash
 pip3 install gym
 pip3 install numpy
 pip3 install torch
 ```
 
-Clone the repo:<br/>
+**Clone the repo**:<br/>
 ```bash
 git clone https://github.com/DevinLeamy/Classic-Control.git
 ```
 
-Train the agents (MountainCar in this example):<br/>
+**Train an agent (MountainCar in this example)**:<br/>
 ```bash
 cd MountainCar
 python3 train.py
 ```
 
-Test your agents:<br/>
+**Test your agent**:<br/>
 ```bash
 python3 test.py
 ```
