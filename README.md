@@ -16,6 +16,7 @@ The agent in this problem is tasked to keep a pole balance on a cart.<br/><br/>
 
 **Agent after training:**<br/>
 ![Agent Balancing Pole](results/CartPole.gif)
+
 **Results:**
 + First successful episode: 185
 + Desired reward: 200.0
