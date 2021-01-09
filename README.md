@@ -16,7 +16,7 @@ The agent in this problem is tasked to keep a pole balance on a cart.<br/><br/>
 
 **Agent after training:**<br/>
 ![Agent Balancing Pole](results/CartPole.gif)
-
+**Results:**
 + First successful episode: 185
 + Desired reward: 200.0
 + Average reward during testing (100 episodes): 200.0
@@ -33,6 +33,7 @@ The agent in this problem is a car tasked with making its way to a flag perched 
 **Agent after training:**<br/>
 ![Agent Climbing Hill](results/MountainCar.gif)
 
+**Results:**
 + First successful episode: 1042
 + Desired reward: >= -100
 + Average reward during testing (100 episodes): -147.1 (successful roughly 3/5th of the time) 
