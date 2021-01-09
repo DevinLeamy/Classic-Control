@@ -8,9 +8,9 @@ Using Deep Q Learning to solve classic control problems <br/> <br/>
 ### CartPole
 The agent in this problem is tasked to keep a pole balance on a cart.<br/>
 Hyperparameters:
-*1. learning rate = 0.01
-*2. Gamma = 0.99
-*3. Batch size = 64
-*4. Memory size = 1000
+*. learning rate = 0.01
+*. Gamma = 0.99
+*. Batch size = 64
+*. Memory size = 1000
 *. Target net update frequency = 200 (timesteps) <br/>
 
