@@ -132,8 +132,6 @@ def train(problem, episodes, gamma, epsilon, epsilon_decay, lr, threshold_value)
             _iter += 1
 
         print("Episode: {}\tTimesteps: {}\tRewards: {}".format(episode, _iter, rewards))
-        # if len(records) > 1 and records[-1][2] >= threshold_value:
-        #    break
     env.close()
     dqn.store_model()
     return records
