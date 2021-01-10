@@ -57,7 +57,7 @@ A spaceship (the agent) is tasked with softly landing on a marked landing strip.
 * target net update frequency = 200 (timesteps) <br/>
 
 **Agent after training:**<br/>
-![Agent Landing Spacecraft](results/MountainCar.gif)
+![Agent Landing Spacecraft](results/LunarLandar.gif)
 
 **Results:**
 + First successful episode: 1592
@@ -92,6 +92,6 @@ python3 test.py
 
 ## Improvements
 Promising ways to improve the success of the agents:
-- Hyperparameter tuning (the hyperparameters used are likely not optimal)
-- Train on more episodes (agents were trained until they reached a preset threshold to save compute; train the agents until results reach a desired consistency)
-- Use custom reward function (LunarLander and MountainCar utilize their environments' default reward function which is likely not optimal)
+- **Tune hyperparameters** (the hyperparameters used are likely not optimal)
+- **Conduct more training** (agents were trained until they reached a preset threshold to save compute; train the agents until results reach a desired consistency)
+- **Modify reward function** (LunarLander and MountainCar utilize their environments' default reward function which is likely not optimal)
