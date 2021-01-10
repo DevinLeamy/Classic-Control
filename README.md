@@ -62,7 +62,7 @@ A spaceship (the agent) is tasked with softly landing on a marked landing strip.
 **Results:**
 + First successful episode: 1592
 + Total episodes: 2000
-+ Desired reward: >= 200 (according to the documentation: https://github.com/svpino/lunar-lander/)
++ Desired reward: >= 200 (according to the documentation: https://github.com/openai/gym/blob/master/gym/envs/box2d/lunar_lander.py)
 + Average reward during testing (100 episodes): 57.4 
 
 
