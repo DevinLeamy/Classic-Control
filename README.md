@@ -57,7 +57,7 @@ A spaceship (the agent) is tasked with softly landing on a marked landing strip.
 * target net update frequency = 200 (timesteps) <br/>
 
 **Agent after training:**<br/>
-![Agent Landing Spacecraft](results/LunarLandar.gif)
+![Agent Landing Spacecraft](results/LunarLander.gif)
 
 **Results:**
 + First successful episode: 1592
