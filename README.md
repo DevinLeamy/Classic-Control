@@ -3,10 +3,8 @@ Using Deep Q Learning to solve control theory problems from classic RL literatur
 ## Notes
 1. All environments (CartPole-v0, MountainCar-v0 and, LunarLander-v2) have been sourced from OpenAI's Gym API (https://gym.openai.com). 
 2. Testing figures are drawn from model parameters found in the __models__ folder of each environment (testing model parameters were collected following training).
-3. Q Learning was facilitated through use of two artifical neural networks (a Q Net and a Target Net). The functions of both networks are layed out in this article: https://towardsdatascience.com/self-learning-ai-agents-part-i-markov-decision-processes-baf6b8fc4c5f.
+3. Q Learning was facilitated through use of two artifical neural networks (a Q Net and a Target Net). The functions of both networks are layed out in this article: https://towardsdatascience.com/self-learning-ai-agents-part-i-markov-decision-processes-baf6b8fc4c5f (or see complete algorithm below).
 
-**Summary of Deep Q Learning**<br/>
-![Deep Q Learning Algorithm](https://lilianweng.github.io/lil-log/assets/images/DQN_algorithm.png)
 # CartPole (CartPole-v0)
 The agent in this problem is tasked to keep a pole balance on a cart.<br/><br/>
 **Hyperparameters**:
@@ -97,3 +95,7 @@ Promising ways to improve the success of the agents:
 - **Tune hyperparameters** (the hyperparameters used are likely not optimal)
 - **Conduct more training** (agents were trained until they reached a preset threshold to save compute; train the agents until results reach a desired consistency?)
 - **Modify reward function** (LunarLander and MountainCar utilize their environments' default reward function which is likely not optimal)
+
+
+##Summary of Deep Q Learning
+![Deep Q Learning Algorithm](https://lilianweng.github.io/lil-log/assets/images/DQN_algorithm.png)
