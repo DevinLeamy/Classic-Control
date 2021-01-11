@@ -97,5 +97,5 @@ Promising ways to improve the success of the agents:
 - **Modify reward function** (LunarLander and MountainCar utilize their environments' default reward function which is likely not optimal)
 
 
-##Summary of Deep Q Learning
+## Summary of Deep Q Learning
 ![Deep Q Learning Algorithm](https://lilianweng.github.io/lil-log/assets/images/DQN_algorithm.png)
